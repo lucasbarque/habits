@@ -4,36 +4,27 @@
 
 </div>
 
-## 💻 Projeto
+## 💻 Projeto Habits
 
-O projeto Ignite Call foi construído para agendamentos de compromissos a partir de um calendário com integração com o Google Agenda. O usuário pode se cadastrar no app a partir de sua conta do Google e indicar seus dias da semana e horários em que estará disponível para agendar compromissos. Todo agendamento cadastrado na aplicação tem integração com o Google Agenda, o que possibilita ao usuário verificar seus novos compromissos direto na plataforma do Google.
+O Habits é um app para monitoramento de tarefas diárias para auxiliar seus usuários a rastrear suas atividades realizadas e não realizadas.
 
-O Ignite Call foi construído inteiramente em um projeto Next.js e utilizado os mecanismos fornecidos pelo framework para criação e integração do front-end e do back-end a partir de um único repositório de código. A comunicação da aplicação com o banco de dados foi feita com o uso da ferramenta Prisma.io e utilizado um banco de dados MySQL em um container Docker. O banco de dados de produção foi publicado a partir do serviço da plataforma PlanetScale e foi utilizado o serviço da Vercel para hospedagem da aplicação.
+O fluxo da aplicação é simples: o usuário cadastra os hábitos desejados indicando em quais dias da semana deverão ser realizados e todos os dias ele terá uma listas de hábitos de acordo com o dia atual, aonde ele irá indicar o status de cada hábito e a aplicação irá gerar um progresso diário que será ilustrado na barra de progresso e também nas cores dos quadrados que representam os dias onde cores mais claras representam números maiores de hábitos completos.
+
+Ao acessar a home da aplicação o usuário irá se deparar com a página, onde será exibido um botão para cadastro de um novo hábito e vários quadrados os quais representam dias passados, dia atual e dia futuro.
 
 ## 🧪 Tecnologias
 
 Este projeto foi desenvolvido com as seguintes tecnologias
 
-- React
-- Next.js
-- Typescript
-- Node.js
-- Prisma.io
-- Google APIs
-- Google Cloud Platform
-- Docker
-- Axios
-- Next Seo
-- Nookies
-- React Hook Form
-- Design System
-- Stitches (CSS-in-JS)
-- Phosphor icons
-- ESLint
-- Date-fns
-- Zod
+- NodeJS
+- TypeScript
+- Fastify
+- Prisma
+- ViteJS
+- ReactJS
+- TailwindCSS
 
-## 🚀 Como instalar
+## 🚀 Como executar
 
 ```bash
 # Clone este repositório.
